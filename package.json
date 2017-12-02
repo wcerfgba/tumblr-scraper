@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/app.js"
+  },
+  "main": "dist/app.js",
+  "dependencies": {
+    "@types/request": "^2.0.8",
+    "@types/request-promise": "^4.1.39",
+    "@types/yargs": "^8.0.2",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "request-promises": "^1.1.0",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.2",
+    "yargs": "^10.0.3"
+  }
+}
